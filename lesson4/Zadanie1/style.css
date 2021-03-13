@@ -1,0 +1,50 @@
+body{
+    font-family: system-ui;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.navi{
+    background-color: darksalmon ;
+  
+   padding-top: 10px;
+   margin-bottom: 0px;
+   padding-bottom: 5px;
+   width: 100%;
+   height: 20px;
+
+}
+
+.head-left, .head-right { color: white;}
+
+.head-left {
+    float: left;
+    padding-left: 5px;
+    margin: 0px;
+}
+
+.head-right {
+    float: right;
+    padding-right: 100px;
+    margin: 0px;
+    
+}
+a {    
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin: 0px;
+
+    }
+.banner{
+  
+    color: darksalmon;
+    display: block;
+    margin: 0px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 250px;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.incimages.com/uploaded_files/image/1920x1080/getty_548298907_9706479704500126_78156.jpg);  background-repeat:no-repeat;
+}
