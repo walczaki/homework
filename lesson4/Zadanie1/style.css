@@ -1,50 +1,48 @@
-body{
-    font-family: system-ui;
-    margin-left: 0px;
-    margin-right: 0px;
+body, html {
+    background-color: white;
+    font-family:system-ui;
+    margin:0px;
 }
 
-.navi{
-    background-color: darksalmon ;
-  
-   padding-top: 10px;
-   margin-bottom: 0px;
-   padding-bottom: 5px;
-   width: 100%;
-   height: 20px;
-
+.header {
+    font-size: 20px;
+    color: darksalmon;
+    padding-top: 50px;
+    padding-left: 50px;
+    height:350px;
+    background-image: url("https://www.incimages.com/uploaded_files/image/1920x1080/getty_548298907_9706479704500126_78156.jpg");
 }
-
-.head-left, .head-right { color: white;}
-
-.head-left {
-    float: left;
+.navi {
+    background-color: darksalmon;
+    color: white;
+    width:100%;
+    padding-top: 20px;
+    padding-bottom: 8px;
     padding-left: 5px;
-    margin: 0px;
-}
-
-.head-right {
-    float: right;
-    padding-right: 100px;
-    margin: 0px;
+    display:inline-block;
+    margin:-4px;
     
 }
-a {    
-    text-decoration: none;
+.navi a {
     color: white;
-    padding: 5px;
-    margin: 0px;
+    text-decoration: none;
+    padding-left: 10px;
+    
+}
+.left-side {
+    float: left;
+}
+.right-side {
+    float: right;
+    padding-right: 80px;
+}
 
-    }
-.banner{
-  
-    color: darksalmon;
+#mojastrona:hover {
+    color: lightgray;
+}
+
+.main
+{
     display: block;
-    margin: 0px;
-    padding-top: 20px;
-    padding-left: 50px;
-    padding-bottom: 250px;
-    height: 100%;
-    width: 100%;
-    background-image: url(https://www.incimages.com/uploaded_files/image/1920x1080/getty_548298907_9706479704500126_78156.jpg);  background-repeat:no-repeat;
+    text-align: center;
 }
